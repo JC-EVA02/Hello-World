@@ -1,4 +1,9 @@
-Message = "Hello World!"
+from datetime import date
 
-print(Message)
+today = date.today()
+todaysDate = today.strftime("%m/%d/%y")
+username = "Jose"
+
+print("Hello " + username + "!" + " Today's Date is: ", todaysDate)
+
 
